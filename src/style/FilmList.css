@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.box{
+  padding-bottom: 10vw;
+}
+li{
+    list-style: none;
+}
+.clearfix::after {
+    clear: both;
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    visibility: hidden; }
+  
+.main {
+    font-family: "微软雅黑"; }
+    .main li {
+      border-bottom: 1px solid #ddd;
+      background-color: #fff;
+      padding: 10px; }
+      .main li .pic {
+        float: left;
+        width: 20%; }
+        .main li .pic img {
+          height: 100%;
+          width: 100%; }
+      .main li .intro {
+        float: left;
+        font-size: 14px;
+        width: 77%;
+        margin-left: 5px; }
+        .main li .intro p {
+          line-height: 24px;
+          width: 100%; }
+        .main li .intro .title {
+          color: #000;
+          font-weight: bold; }
+        .main li .intro .brand .salary {
+          float: right;
+          font-size: 16px;
+          color: #00b38a;
+          font-weight: bold; }
+        .main li .intro .time {
+          color: #888; }
+  

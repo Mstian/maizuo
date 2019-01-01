@@ -1,0 +1,31 @@
+nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+    height: 15vw;
+    /* line-height: 10vw; */
+}
+nav a{
+    width: 25%;
+    text-align: center;
+    text-decoration: none;
+    color: #666;
+    font-size: 12px;
+}
+.iconfont {
+    font-size: 25px;
+}
+nav a{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    
+}
+nav a .iconfont{
+    font-size: 25px;
+}
